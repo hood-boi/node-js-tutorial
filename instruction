@@ -7,7 +7,7 @@ $ npm install
 ## Start a mongo server
 $ mkdir mongo-data
 $ mongod --dbpath ./mongo-data
-$ mongod --fork --logpath /home/sadam/Node/CSC309/mongo.log --dbpath /home/sadam/Node/CSC309/mongo-data/
+$ mongod --fork
 
 ## Start web server
 $ node server.js
